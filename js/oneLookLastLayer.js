@@ -1,3 +1,29 @@
+/*
+
+MIT License
+
+Copyright (c) 2017-2021 Tao Yu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
 var oll1 = {
 "1": ["U2 R' U' F' U F R U' R' U' R U' R' U F' U F R", "U2 R' F' U' F U' R U R' U R F R U R' U' F'", "R U2 R2 F R U R' U' F' U R U R' F R F'", "U2 R' F' U' F U' R U R' U R U R' F' U' F U R", "r' U' R U' R' U2 r U r U2 R' U' R U' r'", "r U R' U R U2 r' U' r' U2 R U R' U r", "F R U' R2 F2 r U r' F R2 U R' U R U' R' F'", "r' R2 U R' U R U' R' U r U2 r' U' M'"],
 "2": ["U F R U R' U R U' R' F' U F U R U' R' U F'", "F U' R U R' U' F' U' F R U R' U' R U' R' F'", "U F R U R' U' F' r' U r2 U' r2 U' r2 U r'", "R' F' U' F U R U' r U' r2 U r2 U r2 U' r", "U F R U R' U' R U R' U' F' R U2 R' U' F' U2 F R U' R'", "U R' U R U2 R' U' R U R' U' R' F R F2 U2 F R", "U R U2 R2 F R F' R U2 R' U' r U R' U R U2 r'", "R U2 R2 F R F' R U2 R2 F' r U' r' F2 R"],
