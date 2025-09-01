@@ -522,7 +522,73 @@ function drawCube(cubeArray) {
         fillWithIndex(2, 5, "f", 9, cubeArray);
         fillWithIndex(3, 5, "r", 7, cubeArray);
 
-    }else{
+    }else if(document.getElementById("cubeType").value == "full_3x3"){    // for full_3x3 2d representation
+        // left face
+        fillWithIndex(2, 3, "l", 1, cubeArray);
+        fillWithIndex(2, 4, "l", 2, cubeArray);
+        fillWithIndex(2, 5, "l", 3, cubeArray);
+        fillWithIndex(1, 3, "l", 4, cubeArray);
+        fillWithIndex(1, 4, "l", 5, cubeArray);
+        fillWithIndex(1, 5, "l", 6, cubeArray);
+        fillWithIndex(0, 3, "l", 7, cubeArray);
+        fillWithIndex(0, 4, "l", 8, cubeArray);
+        fillWithIndex(0, 5, "l", 9, cubeArray);
+
+        // back face
+        fillWithIndex(5, 2, "b", 1, cubeArray);
+        fillWithIndex(4, 2, "b", 2, cubeArray);
+        fillWithIndex(3, 2, "b", 3, cubeArray);
+        fillWithIndex(5, 1, "b", 4, cubeArray);
+        fillWithIndex(4, 1, "b", 5, cubeArray);
+        fillWithIndex(3, 1, "b", 6, cubeArray);
+        fillWithIndex(5, 0, "b", 7, cubeArray);
+        fillWithIndex(4, 0, "b", 8, cubeArray);
+        fillWithIndex(3, 0, "b", 9, cubeArray);
+        
+        // top face
+        fillWithIndex(3, 3, "u", 1, cubeArray);
+        fillWithIndex(4, 3, "u", 2, cubeArray);
+        fillWithIndex(5, 3, "u", 3, cubeArray);
+        fillWithIndex(3, 4, "u", 4, cubeArray);
+        fillWithIndex(4, 4, "u", 5, cubeArray);
+        fillWithIndex(5, 4, "u", 6, cubeArray);
+        fillWithIndex(3, 5, "u", 7, cubeArray);
+        fillWithIndex(4, 5, "u", 8, cubeArray);
+        fillWithIndex(5, 5, "u", 9, cubeArray);
+        
+        // front face
+        fillWithIndex(6, 3, "f", 1, cubeArray);
+        fillWithIndex(7, 3, "f", 2, cubeArray);
+        fillWithIndex(8, 3, "f", 3, cubeArray);
+        fillWithIndex(6, 4, "f", 4, cubeArray);
+        fillWithIndex(7, 4, "f", 5, cubeArray);
+        fillWithIndex(8, 4, "f", 6, cubeArray);
+        fillWithIndex(6, 5, "f", 7, cubeArray);
+        fillWithIndex(7, 5, "f", 8, cubeArray);
+        fillWithIndex(8, 5, "f", 9, cubeArray);
+        
+        // right face
+        fillWithIndex(6, 5, "r", 1, cubeArray);
+        fillWithIndex(6, 4, "r", 2, cubeArray);
+        fillWithIndex(6, 3, "r", 3, cubeArray);
+        fillWithIndex(7, 5, "r", 4, cubeArray);
+        fillWithIndex(7, 4, "r", 5, cubeArray);
+        fillWithIndex(7, 3, "r", 6, cubeArray);
+        fillWithIndex(8, 5, "r", 7, cubeArray);
+        fillWithIndex(8, 4, "r", 8, cubeArray);
+        fillWithIndex(8, 3, "r", 9, cubeArray);
+        
+        // bottom face
+        fillWithIndex(9, 3, "b", 1, cubeArray);
+        fillWithIndex(10, 3, "b", 2, cubeArray);
+        fillWithIndex(11, 3, "b", 3, cubeArray);
+        fillWithIndex(9, 4, "b", 4, cubeArray);
+        fillWithIndex(10, 4, "b", 5, cubeArray);
+        fillWithIndex(11, 4, "b", 6, cubeArray);
+        fillWithIndex(9, 5, "b", 7, cubeArray);
+        fillWithIndex(10, 5, "b", 8, cubeArray);
+        fillWithIndex(11, 5, "b", 9, cubeArray);
+    }else{    // for 3x3
         fillWithIndex(0, 0, "l", 1, cubeArray);
         fillWithIndex(1, 0, "u", 1, cubeArray);
         fillWithIndex(2, 0, "u", 2, cubeArray);
