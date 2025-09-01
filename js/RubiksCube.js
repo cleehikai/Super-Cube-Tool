@@ -523,6 +523,8 @@ function drawCube(cubeArray) {
         fillWithIndex(3, 5, "r", 7, cubeArray);
 
     }else if(document.getElementById("cubeType").value == "full_3x3"){    // for full_3x3 2d representation
+        // change sticker size since canvas size is fixed
+        stickerSize = canvas.width/12;
         // left face
         fillWithIndex(2, 3, "l", 1, cubeArray);
         fillWithIndex(2, 4, "l", 2, cubeArray);
