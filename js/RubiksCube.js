@@ -564,15 +564,15 @@ function drawCube(cubeArray) {
         fillWithIndex(5, 5, "u", 9, cubeArray);
         
         // front face
-        fillWithIndex(3, 3, "f", 1, cubeArray);
-        fillWithIndex(4, 3, "f", 2, cubeArray);
-        fillWithIndex(5, 3, "f", 3, cubeArray);
-        fillWithIndex(3, 4, "f", 4, cubeArray);
-        fillWithIndex(4, 4, "f", 5, cubeArray);
-        fillWithIndex(5, 4, "f", 6, cubeArray);
-        fillWithIndex(3, 5, "f", 7, cubeArray);
-        fillWithIndex(4, 5, "f", 8, cubeArray);
-        fillWithIndex(5, 5, "f", 9, cubeArray);
+        fillWithIndex(3, 6, "f", 1, cubeArray);
+        fillWithIndex(4, 6, "f", 2, cubeArray);
+        fillWithIndex(5, 6, "f", 3, cubeArray);
+        fillWithIndex(3, 7, "f", 4, cubeArray);
+        fillWithIndex(4, 7, "f", 5, cubeArray);
+        fillWithIndex(5, 7, "f", 6, cubeArray);
+        fillWithIndex(3, 8, "f", 7, cubeArray);
+        fillWithIndex(4, 8, "f", 8, cubeArray);
+        fillWithIndex(5, 8, "f", 9, cubeArray);
         
         // right face
         fillWithIndex(6, 5, "r", 1, cubeArray);
