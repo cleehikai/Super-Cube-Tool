@@ -586,15 +586,15 @@ function drawCube(cubeArray) {
         fillWithIndex(8, 3, "r", 9, cubeArray);
         
         // bottom face
-        fillWithIndex(9, 3, "b", 1, cubeArray);
-        fillWithIndex(10, 3, "b", 2, cubeArray);
-        fillWithIndex(11, 3, "b", 3, cubeArray);
-        fillWithIndex(9, 4, "b", 4, cubeArray);
-        fillWithIndex(10, 4, "b", 5, cubeArray);
-        fillWithIndex(11, 4, "b", 6, cubeArray);
-        fillWithIndex(9, 5, "b", 7, cubeArray);
-        fillWithIndex(10, 5, "b", 8, cubeArray);
-        fillWithIndex(11, 5, "b", 9, cubeArray);
+        fillWithIndex(9, 3, "d", 1, cubeArray);
+        fillWithIndex(10, 3, "d", 2, cubeArray);
+        fillWithIndex(11, 3, "d", 3, cubeArray);
+        fillWithIndex(9, 4, "d", 4, cubeArray);
+        fillWithIndex(10, 4, "d", 5, cubeArray);
+        fillWithIndex(11, 4, "d", 6, cubeArray);
+        fillWithIndex(9, 5, "d", 7, cubeArray);
+        fillWithIndex(10, 5, "d", 8, cubeArray);
+        fillWithIndex(11, 5, "d", 9, cubeArray);
     }else{    // for 3x3
         fillWithIndex(0, 0, "l", 1, cubeArray);
         fillWithIndex(1, 0, "u", 1, cubeArray);
