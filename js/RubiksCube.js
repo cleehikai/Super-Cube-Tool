@@ -31,7 +31,13 @@ var currentScramble = "";
 var algArr;//This is the array of alternatives to currentAlgorithm
 var canvas = document.getElementById("cube");
 var ctx = canvas.getContext("2d");
+
 var stickerSize = canvas.width/5;
+if(document.getElementById("cubeType").value == "full_3x3"){
+    // change sticker size since canvas size is fixed
+    canvas.width/12;
+}
+
 var currentAlgIndex = 0;
 var algorithmHistory = [];
 var shouldRecalculateStatistics = true;
@@ -523,8 +529,7 @@ function drawCube(cubeArray) {
         fillWithIndex(3, 5, "r", 7, cubeArray);
 
     }else if(document.getElementById("cubeType").value == "full_3x3"){    // for full_3x3 2d representation
-        // change sticker size since canvas size is fixed
-        stickerSize = canvas.width/12;
+        
         // left face
         fillWithIndex(2, 3, "l", 1, cubeArray);
         fillWithIndex(2, 4, "l", 2, cubeArray);
